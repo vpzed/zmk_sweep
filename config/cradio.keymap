@@ -56,7 +56,7 @@
         numb_layer {
         bindings = <
         &none              &none              &none              &none              &none              &kp LBKT           &kp N7             &kp N8             &kp N9             &kp RBKT
-        &kp LGUI           &kp LALT           &kp LCTL           &kp LSFT           &kp ESC            &kp EQUAL          &kp N4             &kp N5             &kp N6             &kp SCLN
+        &kp LGUI           &kp LALT           &kp LCTRL          &kp LSHFT          &kp ESC            &kp EQUAL          &kp N4             &kp N5             &kp N6             &kp SCLN
         &none              &kp RALT           &none              &kp PERIOD         &none              &kp BSLH           &kp N1             &kp N2             &kp N3             &kp GRAVE
                                                                  &none              &none              &kp MINUS          &kp N0
         >;
@@ -66,7 +66,7 @@
         bindings = <
         &kp PG_UP          &kp HOME           &kp UP             &kp END            &kp INS            &none              &none              &none               &none              &none
         &kp PG_DN          &kp LEFT           &kp DOWN           &kp RIGHT          &kp CAPS           &kp K_APP          &kp LSHFT          &kp LCTRL           &kp LALT           &kp LGUI
-        LC(Z)              LC(X)              LC(C)              LC(V)              LC(Y)              &none              LS(LG(S))          &none               &kp RALT           &none
+        &kp LC(Z)          &kp LC(X)          &kp LC(C)          &kp LC(V)          &kp LC(Y)          &none              &kp LS(LG(S))      &none               &kp RALT           &none
                                                                  &kp ENTER          &kp BSPC           &none              &none
         >;
         };
@@ -74,7 +74,7 @@
         funt_layer {
         bindings = <
         &kp F12            &kp F7             &kp F8             &kp F9             &kp PSCRN          &none             &none               &none               &none              &none
-        &kp F11            &kp F4             &kp F5             &kp F6             &kp SLCK           &kp K_APP         &kp LSFT            &kp LCTRL           &kp LALT           &kp LGUI
+        &kp F11            &kp F4             &kp F5             &kp F6             &kp SLCK           &kp K_APP         &kp LSHFT           &kp LCTRL           &kp LALT           &kp LGUI
         &kp F10            &kp F1             &kp F2             &kp F3             &kp PAUSE_BREAK    &none             &kp K_MUTE          &none               &kp RALT           &none
                                                                  &kp ENTER          &kp BSPC           &none             &none
         >;
