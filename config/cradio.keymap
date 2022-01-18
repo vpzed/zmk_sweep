@@ -74,7 +74,7 @@
         funt_layer {
         bindings = <
         &kp F12            &kp F7             &kp F8             &kp F9             &kp PSCRN          &none             &none               &none               &none              &none
-        &kp F11            &kp F4             &kp F5             &kp F6             &kp SLCK           &kp K_APP         &kp LSFT            &kp LCTL            &kp LALT           &kp LGUI
+        &kp F11            &kp F4             &kp F5             &kp F6             &kp SLCK           &kp K_APP         &kp LSFT            &kp LCTRL           &kp LALT           &kp LGUI
         &kp F10            &kp F1             &kp F2             &kp F3             &kp PAUSE_BREAK    &none             &kp K_MUTE          &none               &kp RALT           &none
                                                                  &kp ENTER          &kp BSPC           &none             &none
         >;
