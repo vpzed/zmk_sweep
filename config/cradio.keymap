@@ -3,8 +3,14 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-// accepting mod-tap defaults of "balanced" and tapping term 200
+&mt {
+    flavor = "tap-preferred";
+    tapping_term_ms = <300>;
+};
 
+&lt {
+    quick-tap-ms = <50>;
+};
 
 / {
 
