@@ -25,7 +25,7 @@
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
-        a_tri_layer {
+        cond_layer_mgmt {
             if-layers = <1 4>;
             then-layer = <5>;
         };
@@ -38,9 +38,9 @@
         base_layer {
         bindings = <
         &kp Q              &kp W              &kp F              &kp P              &kp B              &kp J              &kp L              &kp U              &kp Y              &kp APOS
-        &mt LGUI &kp A     &mt LALT &kp R     &mt LCTRL &kp S    &mt LSHFT &kp T    &kp G              &kp M              &mt LSHFT &kp N    &mt LCTRL &kp E    &mt LALT &kp I     &mt LGUI &kp O
+        &mt LGUI A         &mt LALT R         &mt LCTRL S        &mt LSHFT T        &kp G              &kp M              &mt LSHFT N        &mt LCTRL E        &mt LALT I         &mt LGUI O
         &kp Z              &kp X              &kp C              &kp D              &kp V              &kp K              &kp H              &kp COMMA          &kp PERIOD         &kp SLASH
-                                                                 &lt 1 &kp ENTER    &lt 2 &kp BSPC     &lt 3 &kp SPACE    &lt 4 &kp TAB
+                                                                 &lt 1 ENTER        &lt 2 BSPC         &lt 3 SPACE        &lt 4 TAB
         >;
         };
 
