@@ -46,10 +46,10 @@
 
         symb_layer {
         bindings = <
-        &none              &none              &none              &none              &none              &kp LBRC           &kp AMPS           &kp ASTRK          &kp LPAS           &kp RBRC
+        &none              &none              &none              &none              &none              &kp LBRC           &kp AMPS           &kp ASTRK          &kp LPAR           &kp RBRC
         &kp LGUI           &kp LALT           &kp LCTRL          &kp LSHFT          &kp ESC            &kp PLUS           &kp DLLR           &kp PRCNT          &kp CARET          &kp COLON
         &none              &kp RALT           &none              &kp DEL            &none              &kp PIPE           &kp EXCL           &kp AT             &kp HASH           &kp TILDE
-                                                                 &none              &none              &kp UNDER          &kp RPAS
+                                                                 &none              &none              &kp UNDER          &kp RPAR
         >;
         };
 
