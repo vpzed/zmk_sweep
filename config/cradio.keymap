@@ -8,10 +8,6 @@
     tapping_term_ms = <300>;
 };
 
-&lt {
-    quick-tap-ms = <50>;
-};
-
 / {
 
     combos {
